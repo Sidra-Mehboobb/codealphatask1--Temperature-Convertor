@@ -1,0 +1,78 @@
+           /* body */
+body{
+    background-color: cadetblue;
+    position: absolute;
+    font-family: 'Black Ops One', cursive;
+}
+            /* Container */
+  .container
+  {
+    margin-top: 100px;
+    margin-left:400px;
+    text-align: center;
+    background: rgb(14, 14, 66);
+    box-shadow: rgb(14, 14, 66) 4px 4px 4px;
+    width: 85%;
+    height: 400px;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+  }
+       /* label */
+  label {
+    font-weight: bold;
+}
+            /* input */
+input[type="number"] {
+    width: 75%;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: monospace;
+}
+      /* select */
+select {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+           /* button */
+button {
+    width: 25%;
+    background-color: cadetblue;
+    font-family: 'Black Ops One', cursive;
+    color: #fff;
+    padding: 10px;
+    margin: 12px;
+    margin-left: 170px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background:grey;
+}
+
+.resultdiv label
+{
+     width: 50%;
+} 
+                   /* input */
+
+input[type="text"] {
+    width: 65%;
+    padding: 5px;
+    margin: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: monospace;
+}
